@@ -1,4 +1,4 @@
-package day01;
+package dijkstra.day01;
 
 import java.io.BufferedReader;
 import java.io.IOException;
