@@ -37,7 +37,7 @@ public class Boj14287 {
 	}
 	
 	static int N, M;
-	static int[] tree, lazy, left, right;
+	static int[] tree, left, right;
 	static int idx;
 	static List<Integer>[] employees;
 	public static void main(String[] args) {
@@ -51,7 +51,6 @@ public class Boj14287 {
 		right = new int[N+1];
 		
 		tree = new int[N*4];
-		lazy = new int[N*4];
 		idx = 0;
 		
 		for(int i=1; i<=N; i++) employees[i] = new ArrayList<Integer>();
